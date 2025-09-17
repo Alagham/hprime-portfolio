@@ -17,7 +17,7 @@ function Hero() {
           sequence={[
             "Software Developer",
             2000,
-            "Frontend Developer",
+            "Fullstack Developer",
             2000,
             "Problem Solver",
             2000,
@@ -28,12 +28,14 @@ function Hero() {
           className="text-xl text-gray-600 dark:text-gray-300"
           repeat={Infinity}
         />
-        <a
-          href="#projects"
-          className="mt-8 inline-block bg-blue-500 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-600 transition"
+        <motion.a
+        href="#projects"
+        whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.95 }}
+        className="mt-8 inline-block bg-blue-500 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-600 transition"
         >
-          View My Work
-        </a>
+        View My Work
+        </motion.a>
       </motion.div>
     </section>
   );
