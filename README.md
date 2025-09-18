@@ -49,13 +49,10 @@ portfolio-pro/
 ├── package.json
 └── README.md
 
-📸 Preview
-
-(Add a screenshot or GIF of your portfolio here)
 
 ⚡ Getting Started
 1️⃣ Clone the repository
-git clone https://github.com/Alagham/portfolio-pro.git
+git clone https://github.com/Alagham/hprime-portfolio
 cd portfolio-pro
 
 2️⃣ Install dependencies
@@ -79,6 +76,3 @@ npm run build
 
 📝 License
 
-This project is licensed under the MIT License — feel free to use and modify it.
-
-🔥 Pro tip: Add a deployment link (Netlify/Vercel) in the README so recruiters can preview it live.
