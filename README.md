@@ -1,12 +1,84 @@
-# React + Vite
+🌐 Personal Portfolio — Hamzah Adegbola
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and animated portfolio built with React + Vite, styled with TailwindCSS, and powered with Framer Motion for smooth animations.
+This portfolio showcases my projects, resume, skills, and provides an easy way to get in touch.
 
-Currently, two official plugins are available:
+✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🌓 Dark/Light Mode Toggle
 
-## Expanding the ESLint configuration
+📄 Downloadable Resume
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+💡 Projects Showcase with descriptions & live demos
+
+📱 Fully Responsive for all devices
+
+🎨 Framer Motion Animations for smooth interactions
+
+📬 Contact Form integrated with EmailJS
+
+🔗 Social Media Links (GitHub, LinkedIn, Twitter)
+
+🚀 Tech Stack
+
+React (Vite) ⚡ Fast bundler
+
+TailwindCSS 🎨 Utility-first styling
+
+Framer Motion 🌀 Animations
+
+Lucide React 🎯 Icons
+
+EmailJS 📧 Contact form integration
+
+Type Animation ⌨️ Animated typing effect
+
+📂 Project Structure
+portfolio-pro/
+├── public/               # Static assets (resume, icons, etc.)
+├── src/
+│   ├── components/       # Reusable components
+│   │   ├── Navbar.jsx
+│   │   ├── Hero.jsx
+│   │   ├── Projects.jsx
+│   │   ├── Skills.jsx
+│   │   ├── Resume.jsx
+│   │   └── Contact.jsx
+│   ├── App.jsx           # Main app component
+│   └── index.css         # Tailwind base styles
+├── package.json
+└── README.md
+
+📸 Preview
+
+(Add a screenshot or GIF of your portfolio here)
+
+⚡ Getting Started
+1️⃣ Clone the repository
+git clone https://github.com/Alagham/portfolio-pro.git
+cd portfolio-pro
+
+2️⃣ Install dependencies
+npm install
+
+3️⃣ Run development server
+npm run dev
+
+4️⃣ Build for production
+npm run build
+
+📬 Contact
+
+📧 Email: hamzahalagbe27@gmail.com
+
+💼 LinkedIn: linkedin.com/in/hamzah-adegbola-alagbe
+
+🐙 GitHub: github.com/Alagham
+
+🐦 Twitter (X): x.com/hprime0
+
+📝 License
+
+This project is licensed under the MIT License — feel free to use and modify it.
+
+🔥 Pro tip: Add a deployment link (Netlify/Vercel) in the README so recruiters can preview it live.
